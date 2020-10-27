@@ -1,0 +1,100 @@
+body
+{
+   padding: 0;
+   margin:0;
+   width: 1349px;
+   min-width: 1349px;
+   color: #0F2A38;
+      background-color: #C5C5AF;
+   background-image: url('images/32.jpg');
+   background-repeat: repeat;
+}
+
+  #art-main, table
+  {
+     font-family: Tahoma, Arial, Helvetica, Sans-Serif;
+     font-style: normal;
+     font-weight: normal;
+     font-size: 14px;
+     text-align: justify;
+     line-height: 200%;
+     display: block;
+     float: left;
+     position: relative;
+  }
+  h1 {
+    text-decoration: underline;
+    {
+        height:100%;
+     }
+     
+     .art-nav
+{
+   width:1000px;
+   margin:0 auto;
+   min-height: 50px;
+   z-index: 100;
+   margin-top: 3px;
+   margin-bottom: -14px;
+}
+
+.art-nav:before, .art-nav:after{
+   background-image: url('images/nav.png');
+}
+.art-nav:before{
+   right: 11px;
+}
+.art-nav:after{
+   width: 11px;
+  }
+
+  
+  <style>
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111;
+}
+</style>
+</head>
+<body>
+
+<ul>
+  <li><a class="active" href="#home">Home</a></li>
+  <li><a href="#news">News</a></li>
+  <li><a href="#contact">Contact</a></li>
+  <li><a href="#about">About</a></li>
+</ul>
+
+
+.oper
+{
+   display: block;
+   float: left;
+   position: relative;
+
+#ente{
+	color: 10px;
+}
+.box{
+	background: red;
+	padding: 10px;
+}
