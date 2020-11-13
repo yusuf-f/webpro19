@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <style>
+        select, img {
+            width: 250px;
+            height: auto;
+        }
+    </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Picker</title>
+</head>
+
+<body>
+<h2>Pilihlah Sepatu Kesukaan Anda</h2>
+    <select id="changeImage" onchange="change_image()">
+        <option disabled selected>Pilihlah Sepatu Kesukaan Anda</option>
+        <option value="Compass" >Sepatu Compass</option>
+        <option value="Converse">Converse</option>
+        <option value="Vans">Vans</option>
+        <option value="Patrobas">Patrobas</option>
+        <option value="Nike">Nike</option>
+        <option value="Adidas">Adidas</option>
+    </select>
+    <br/>
+    <br/>
+    <img id="gambar" src="" alt="Pilih Brand Sepatu Diatas Untuk Menampilkan Gambar Tersebut" width="100px" height="auto">
+    <script>
+        function change_image() {
+            let images = document.getElementById("changeImage").value;
+            let gambar = document.getElementById("gambar");
+            if (images == "Compass"){
+                gambar.src="./image/1.jpg";
+                alert(`Ini adalah foto Sepatu ${images}`);
+            }else if (images == "Converse"){
+                gambar.src="./image/2.jpg";
+                alert(`Ini adalah foto Sepatu ${images}`);
+            }else if (images == "Vans"){
+                gambar.src="./image/3.jpg";
+                alert(`Ini adalah foto Sepatu ${images}`);
+            }else if (images == "Patrobas"){
+                gambar.src="./image/4.jpg";
+                alert(`Ini adalah foto Sepatu ${images}`);
+            }else if (images == "Nike"){
+                gambar.src="./image/5.jpg";
+                alert(`Ini adalah foto Sepatu ${images}`);
+            }else if (images == "Adidas"){
+                gambar.src="./image/6.jpg";
+                alert(`Ini adalah foto Sepatu ${images}`);
+            }
+        }
+    </script>
+</body>
+
+</html>
